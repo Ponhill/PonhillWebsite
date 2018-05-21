@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+hr {
+width:inherit;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.message-wrapper{
+	width:inherit;
+	background-color: #D4D4D4;
+	border-radius: 15px;
+	padding:10px;
+    border-collapse:separate;
+    border-spacing: 50px 50px;
+    margin-top: 5px;
+    margin-left: 2px;
+	margin-right: 2px;
+
+}
+.message{ 
+}
+
+.name{
+	display: inline;
+}
+
+.star{
+	float:right;
+	font-size: 30px;
+	line-height: 1.2;
+	color: #FFAE00;
+}
+
+.date{
+	font-size: 12px;
+    margin-top: 5px;
+}
+.heart{
+	color: red;
+}
+
+.share{
+	margin-left: 100px;
+}
+
+.comment{
+	margin-left: 100px;
+}
+.name2{
+	color: #232323;
+	display: inline;
+}
+
+.name3{
+	color: #7D00B4;
+	display: inline;
+}
+
+.Buttonsbaby {
+    color: aquamarine;
+   
+    
+}
+
+.pink {color: whitesmoke;
+    background: #d472ff;
+}
+
+.blue {; color:#d472ff;
+    
+  
+}
+
+.yellow {color:  #d472ff;}
+
+.high {color: whitesmoke;
+    background:#3C53DC}
+.high a {
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+.QCF {float:right;
+	margin-right: 48px;
+
+
+	color: #171717;}
+
+.QCFM {float:right;
+	margin-right:75px;
+}

@@ -1,0 +1,35 @@
+.Newt {
+	color: #977BDC;
+}
+
+.rounded_down {
+	background-color: transparent;
+	border-color: white;
+	border-width: 1px;
+	border-style: solid;
+	color: white;
+	border-radius: 8px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	transition: all;
+	transition-duration: 0.2s;
+}
+
+.rounded_down:hover {
+	background-color: white;
+	color: black;
+}
+
+.na_entry{
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.para{color: whitesmoke;}
+
+.white_link {
+	color: white;
+	text-decoration: underline;
+}

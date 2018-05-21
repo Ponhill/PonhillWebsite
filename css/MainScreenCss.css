@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+.message-wrapper{
+	background-color: #D4D4D4;
+	border-radius: 15px;
+	padding:10px;
+}
+.message{
+}
+
+.name{
+	color: #FFAE00;
+	display: inline;
+}
+
+.star{
+	float: right;
+	font-size: 20px;
+	line-height: 1.2;
+	color: #FFAE00;
+}
+
+.date{
+	font-size: 10px;
+}
+.heart{
+	color: red;
+}
+
+.name2{
+	color: #232323;
+	display: inline;
+}
+
+.name3{
+	color: #7D00B4;
+	display: inline;
+}

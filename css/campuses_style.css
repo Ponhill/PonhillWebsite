@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+hr {
+width: 280px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.jumbotron {
+	margin: 5px !important;
+}
+.jumbotron1 {background-image:url(../Images/Newtownabbey-01-01.png);
+background-size: 414px 250px;
+margin-bottom: 0;
+}
+
+.jumbotron h2 {color:#1F1F1F;}
+
+.jumbo2 {background-image: url(../Images/ffgfgfggfg-01.png);
+background-size: 414px 250px;}
+
+.jumbo3 {background-image:url(../Images/errrr-01.png);
+background-size: 414px 250px;}
+
+.jumbo4 {background-image:url(../Images/qwwwwwwwwwwww-01.png);
+background-size: 414px 250px;}

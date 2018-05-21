@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+   background-image: url("../Images/image_background_aa.png");
+   background-repeat: no-repeat;
+	 background-size: cover;
+	 margin: 0 auto;
+	padding: 0 auto;
+	border: 0;
+}
+
+form-group {align-content: center;
+	text-align: center;
+	text-emphasis-color: cornsilk;
+}
+.vertical-center {
+  min-height: 100%;  
+  min-height: 100vh; 
+
+  display: flex;
+  align-items: center;
+align-content: center;
+}
+
+form {width 200px;
+      margin:0 auto;
+}
+
+label {align-content: center;
+	text-align: center;
+    display: block;
+    text-align: center;
+    line-height: 150%;
+}
+
+
+    
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+	align-content: center;
+    top: 50%;
+}
+.checkbox {align-content: center;
+min-height: 20px }
+
+button {align-content: center;
+}

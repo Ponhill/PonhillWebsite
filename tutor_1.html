@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, ">
+    <link rel="stylesheet" type="text/css" href="css/tutor_1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <title>NRC</title>
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+  </head>
+  <body style="background-color:#434A54; ">
+     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Homepage   <small> <font color="#BBBBBB">Beta 1.7  </font> </small></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="MainScreen.html">Home</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="Campuses.html">Campuses</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="Tutors.html">Tutors</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Courses</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Business</a>
+              <a class="dropdown-item" href="#">Art and Design</a>
+              <a class="dropdown-item" href="Hospitality.html">Hospitality</a>
+               <a class="dropdown-item" href="#">Languages</a>
+                <a class="dropdown-item" href="#">Teaching</a>
+                 <a class="dropdown-item" href="#">Computing</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Courses/Campuses/Students..." aria-label="Search">
+      <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button> 
+         
+        </form>
+       <a href="index.html" button class="btn btn-secondary btn-sm float-right">Logout</button> </a>
+      </div>
+    </nav>
+<br>
+<br>
+
+
+<img src="Images/laura_dix.png" class="img-fluid" alt="Responsive image">
+
+<div class="container-fluid">
+<br>
+    <div class="Newt text-center"><h4> Laura Dixon </h4> </div>
+
+      <div class="col-sm-12 text-center para" id="incomplete-text-lorem1">
+      Laura Dixon, Born in Teletubbyland, December 1995, Is a teacher at Northern Regional college. She graduated at the prestigious academy of leruleru, wisconsin, and now teaches astro-fisics to 12 year olds.   
+      </div>
+
+      <div class="col-sm-12 text-center para" id="complete-text-lorem1">
+        Laura Dixon, Born in Teletubbyland, December 1995, Is a teacher at Northern Regional college. She graduated at the prestigious academy of leruleru, wisconsin, and now teaches astro-fisics to 12 year olds. She then helped me find something to add to this <P> class. We failed miserably.
+      </div>
+
+        <div align="center">
+         <div id="btn_collapse" class="rounded_down" style="margin-top: 16px; display: inline-block;">
+              <i class="fas fa-angle-down"></i>
+          </div>   
+        </div>
+      
+      <script type="text/javascript">
+        $('#complete-text-lorem1').hide();
+
+        $('#btn_collapse').click(function() {
+          $('#incomplete-text-lorem1').hide();
+          $('#complete-text-lorem1').show();
+          $('#btn_collapse').hide();
+        })
+      </script>
+
+      <hr>
+
+      <div class="container" style="margin-top:36px;">
+
+        <div class="row" align="center">
+          <div class="col-1"></div>
+          <div class="col-2">
+              <i class="fas fa-map-marker fa-2x" style="color: #977BDC;"></i>
+          </div>
+          <div class="col-8">
+            <a class="white_link" style="font-size: 1.2em;" href="https://www.google.co.uk/maps/place/Northern+Regional+College/@54.667967,-5.9057557,17z/data=!3m1!4b1!4m5!3m4!1s0x4861a73e45d276c7:0xe25ec87d444f8038!8m2!3d54.667967!4d-5.903567">400 Leru Road - Glasgow</a>
+          </div>
+        </div>
+        <br>
+        <div class="row" align="center">
+          <div class="col-1"></div>
+          <div class="col-2">
+              <i class="fas fa-envelope fa-2x" style="color: #977BDC;"></i>
+          </div>
+          <div class="col-8">
+            <a class="white_link" style="font-size: 1.2em;" href="mailto:lauradixon@gmail.com">lauradixon@gmail.com</a>
+          </div>
+        </div>
+        <br>
+        <div class="row" align="center">
+          <div class="col-1"></div>
+          <div class="col-2">
+              <i class="fas fa-phone-square fa-2x" style="color: #977BDC;"></i>
+          </div>
+          <div class="col-8">
+            <a class="white_link" style="font-size: 1.2em;" href="tel:02890855000">+44 28 9085 5000</a>
+          </div>
+        </div>
+        <br>
+        <div class="row" align="center">
+          <div class="col-1"></div>
+          <div class="col-2">
+              <i class="fab fa-facebook fa-2x" style="color: #977BDC;"></i>
+          </div>
+          <div class="col-8">
+            <a class="white_link" style="font-size: 1.2em;" href="https://www.facebook.com/Laura.Dixon">Laura Dixon</a>
+          </div>
+        </div>
+      </div>
+
+
+</div>
+<br><br><br>
+  </body>
+</html>
